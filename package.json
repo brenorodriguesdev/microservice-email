@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/brenorodriguesdev/microservice-email/issues"
   },
-  "homepage": "https://github.com/brenorodriguesdev/microservice-email#readme"
+  "homepage": "https://github.com/brenorodriguesdev/microservice-email#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }
