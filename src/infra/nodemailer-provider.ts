@@ -9,7 +9,7 @@ export class NodemailerProvider implements MailProvider {
     this.transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.USER,
+        user: process.env.EMAIL,
         pass: process.env.PASSWORD
       }
     })
